@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: url("background/channels4_profile.jpg") no-repeat center center;
+    background-size: cover;
+
+    font-family: Arial, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    position: relative;
+}
+
+/* Soatni o‘ng yuqori burchakka joylash */
+#clock {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
